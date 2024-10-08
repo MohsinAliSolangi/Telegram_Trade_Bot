@@ -17,7 +17,6 @@ const { default: getTokenData } = require("./utils/getTokenData");
 
 const User = require("./models/user_model");
 const { mainBot } = require("./TradeBot");
-const { default: axios } = require("axios");
 const BOT = new TelegramBot(BOTTOKEN, { polling: true });
 
 mainBot(BOT);
@@ -76,3 +75,5 @@ app.get("/", (req, res) => res.send("Telegram Bot Is Live"));
 setInterval(checkAlerts, 600000); // 1 Mint
 
 app.listen(PORT, () => `Server is Listening on port ${PORT}`);
+
+module.exports = app;
