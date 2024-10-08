@@ -1,9 +1,12 @@
 {
-  "name": "BigOBot",
+  "name": "TradeBot",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "author": "MohsinAliSolangi",
   "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "axios": "^1.7.7",
     "cors": "^2.8.5",
@@ -14,6 +17,6 @@
     "nodemon": "^3.1.7"
   },
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node index.js"
   }
 }
