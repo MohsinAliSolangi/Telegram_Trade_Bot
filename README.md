@@ -43,4 +43,13 @@ Once the bot is running, you can use the following commands in your Telegram cha
 /set_alert <token_symbol> <price_threshold>: Set a price alert for a specified token (e.g., /set_alert USDT 1.1).
 /list_alerts: List all your active alerts.
 /remove_alert <alert_id>: Remove a specific alert by its ID (e.g., /remove_alert 1).
- """
+```
+## 🚀 Contact
+
+For any questions, feedback, or inquiries, feel free to reach out to **Mohsin Ali Solangi**. You can connect via the following platforms:
+
+🌐 **Linktree**: [Mohsin Ali Solangi](https://linktr.ee/mohsinalisolangi)
+
+🔗 **LinkedIn**: [Mohsin Ali Solangi](https://www.linkedin.com/in/mohsinalisolangi/)
+
+Looking forward to hearing from you! 😄
